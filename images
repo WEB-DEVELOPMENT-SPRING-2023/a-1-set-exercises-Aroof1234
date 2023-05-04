@@ -1,0 +1,34 @@
+<html>
+    <head>
+    <title>
+hero
+    </title>
+    <style>
+.image-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-row img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+    </style>
+    </head>
+    <body>
+
+        <div class="image-row">
+  <img src="14.jpeg" alt="Image 1">
+</div>
+<div class="image-row">
+  <img src="iphone2.jpeg" alt="Image 2">
+</div>
+<div class="image-row">
+  <img src="iphone3.jpeg" alt="Image 3">
+</div>
+
+    </body>
+</html>
