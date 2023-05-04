@@ -1,0 +1,115 @@
+<html>
+    <title>
+        Hotdog Recipe
+    </title>
+    <head>
+    <style>
+        .bordered-list {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+ 
+  .header-line {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 100%;
+  background-color: #333;
+}
+header {
+  position: relative;
+  text-align: center;
+}
+.picture-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture-column {
+  flex-basis: 30%;
+}
+
+.picture-column img {
+  width: 100%;
+  height: auto;
+}
+.wrapper {
+	display: flex;
+}
+
+.left-box {
+	flex: 0 0 25%;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+
+.left-box h2 {
+	margin-top: 0;
+}
+
+.right-box {
+	flex: 1;
+	padding: 20px;
+}
+
+.right-box h1 {
+	margin-top: 0;
+}
+
+</style>
+</head>
+    <body>
+        <header>
+        
+            <div class="header-line"></div>
+          </header> 
+          <h1><center>Hotdog Recipe</center></h1>
+          <div class="content">
+          </div>
+          <div class="picture-row">
+            <div class="picture-column">
+              <img src="hotdog1.jpeg" alt="Picture 1">
+            </div>
+            <div class="picture-column">
+              <img src="hotdog2.png" alt="Picture 2">
+            </div>
+            <div class="picture-column">
+              <img src="hotdog3.jpeg" alt="Picture 3">
+            </div>
+          </div>
+        <br>
+      
+        <p>A hot dog is a type of sausage that is typically made from a blend of ground meat, such as beef or pork, along with various spices and seasonings. The sausage is often shaped like a long, thin tube, and is typically served in a soft,white bun with various condiments, such as ketchup, mustard, onions, and relish.</p>
+        <p><center></center></p>
+    <header>
+        
+            <div class="header-line"></div>
+          </header> 
+          <div class="wrapper">
+		<div class="left-box">
+			<h2>ingredients</h2>
+			<ul>
+				<li>Ground meat: Most commonly beef or pork, but sometimes a combination of the two.</li>
+				<li>Salt: To add flavor and act as a preservative.</li>
+				<li>Water: To help bind the ingredients together and create a moist texture.</li>
+        <li>Spices: Such as paprika, garlic, and onion powder, to add flavor.</li>
+        <li>Preservatives: Such as sodium nitrate or sodium erythorbate, to help extend the shelf life of the hot dog.</li>
+        <li>Other ingredients may include corn syrup, dextrose, or other sweeteners, to balance out the saltiness of the meat.</li>
+			</ul>
+		</div>
+		<div class="right-box">
+			<h1>Method</h1>
+			<ol>
+        <li>Preheat a grill, grill pan, or skillet over medium-high heat.</li>
+        <li>Place the hotdog sausages on the grill or in the pan and cook for 3-5 minutes on each side, until browned and heated through.</li>
+        <li>While the hotdogs are cooking, warm the hotdog buns by placing them on the grill or in the oven for a few minutes.</li>
+        <li>Once the hotdogs are cooked, remove them from the heat and place them in the warmed buns.</li>
+        <li>Add your desired condiments and toppings to the hotdogs.</li>
+        <li>Serve immediately and enjoy!</li>
+      </ol>
+	</div>
+      </body>
+</html>
