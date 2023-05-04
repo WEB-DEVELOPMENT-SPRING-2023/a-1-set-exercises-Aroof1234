@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Information Page Template</title>
+  <style>
+    nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.bordered-box {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.bordered-box h2 {
+  margin-top: 0;
+}
+.header-line {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 100%;
+  background-color: #333;
+}
+header {
+  position: relative;
+  text-align: left;
+}
+nav ul li .button {
+  background-color: rgb(255, 115, 0);
+  color: #333;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-left: 10px;
+}
+
+nav ul li .button:hover {
+  background-color: #333;
+  color: #fff;
+}
+body{
+background-color: #16EDC3;
+}
+#text-container {
+			height: 300px;
+			overflow-y: scroll;
+			padding: 10px;
+		}
+	
+  </style>
+  <script>
+		function scrollToSection() {
+			var section = document.getElementById("section-to-scroll");
+			section.scrollIntoView({ behavior: 'smooth' });
+		}
+    function scrollToSection1() {
+			var section = document.getElementById("section-to-scroll1");
+			section.scrollIntoView({ behavior: 'smooth' });
+		}
+    function scrollToSection2() {
+			var section = document.getElementById("section-to-scroll2");
+			section.scrollIntoView({ behavior: 'smooth' });
+		}
+    function scrollToSection3() {
+			var section = document.getElementById("section-to-scroll3");
+			section.scrollIntoView({ behavior: 'smooth' });
+		}
+    function scrollToSection4() {
+			var section = document.getElementById("section-to-scroll4");
+			section.scrollIntoView({ behavior: 'smooth' });
+		}
+    function scrollToSection5() {
+			var section = document.getElementById("section-to-scroll5");
+			section.scrollIntoView({ behavior: 'smooth' });
+		}
+    function scrollToSection6() {
+			var section = document.getElementById("section-to-scroll6");
+			section.scrollIntoView({ behavior: 'smooth' });
+		}
+	</script>
+</head>
+<body>
+    
+    <h2><center>NINJA MOVIE</center></h2>
+  <nav>
+    <ul>
+    
+      <li><button onclick="scrollToSection()">Plot</button></li>
+      <li><button onclick="scrollToSection1()">Cast</button></li>
+      <li><button onclick="scrollToSection2()">Production</button></li>
+      <li><button onclick="scrollToSection3()">Release</button></li>
+      <li><button onclick="scrollToSection4()">Awards</button></li>
+      <li><button onclick="scrollToSection5()">Home Media</button></li>
+      <li><button onclick="scrollToSection6()">Marketing</button></li>
+      <li><a href="https://www.imdb.com/title/tt1186367/?ref_=fn_al_tt_2" class="button">IMDB 6.3/10</a></li>
+    
+    </ul>
+
+  </nav>
+  <p>Ninja Assassin is a 2009 neo-noir martial arts film directed by James McTeigue. The story was written by Matthew Sand, with a screenplay by J. Michael Straczynski. The film stars South Korean pop musician Rain as a disillusioned assassin looking for retribution against his former mentor, played by ninja film legend Sho Kosugi. Ninja Assassin explores political corruption, child endangerment and the impact of violence. The Wachowskis, Joel Silver, and Grant Hill produced the film for Legendary Pictures, Dark Castle Entertainment and Silver Pictures. It was distributed by Warner Bros. Pictures.</p>
+  
+  <div class="bordered-box">
+   
+    <header>
+      <h2 id="section-to-scroll">Plot</h2>
+        <div class="header-line"></div>
+      </header> 
+    <p>The Ozunu Clan, led by the ruthless Lord Ozunu, trains orphans from around the world to become the ultimate ninja assassins. Raizo is one of the orphans. The Ozunu Clan's training is extremely brutal, especially for Raizo since he is to be the next successor of the clan. The only kindness he ever feels is from a young kunoichi named Kiriko, with whom he eventually develops a romantic bond. As time goes by, Kiriko becomes disenchanted with the Ozunu's routine and decides to abandon it. One rainy night, Kiriko climbs a wall to escape and encourages Raizo to join her, but he chooses to stay. Branded as a traitor, Kiriko is captured and later executed in front of Raizo by their elder ninja brother Takeshi, who impales her through the heart.
+
+Years later, an adult Raizo is instructed by Lord Ozunu to complete his first assassination. After the mission, Raizo meets the rest of his clan atop a city skyscraper in Berlin. There, Lord Ozunu orders him to execute a kunoichi traitor. Remembering Kiriko's death, Raizo slashes Lord Ozunu's face with his kyoketsu-shoge and fights against his fellow ninjas. Barely surviving, he falls off the rooftop and into a river. After years, Raizo recovers and trains on his own to intervene in, and foil, all of Ozunu's assassination attempts.
+
+Meanwhile, Europol agent Mika Coretti has been investigating money-linked political murders and finds out that they are possibly connected to the Ozunu. She defies her superior, Ryan Maslow, and retrieves secret agency files to find out more about the investigation. Mika meets Raizo and convinces him to see Maslow for protection, as well as to provide evidence against the Ozunu. However, Raizo is arrested by Maslow and abducted by Europol agents for interrogation.
+
+Although feeling betrayed, Mika is assured by Maslow that he is still on her side and gives her a tracking device for emergencies. The Ozunu ninjas infiltrate the Europol safe house, where Raizo is being held, in an attempt to kill him and everybody inside. Mika frees Raizo and they both manage to escape, but Raizo suffers near-fatal wounds. Mika then takes him to a motel to hide. Resting in the motel, Mika implants the tracking device into Raizo, as the ninjas remain in pursuit. Unable to fend off the Ozunu, she hides outside the motel until Special Forces arrive to help her.
+
+By the time they arrive, the ninja have already kidnapped Raizo, bringing him before Lord Ozunu for execution. During the transport back to the Ozunu, Raizo uses his ninja techniques to heal his own wounds. Europol Special Forces and tactical teams led by Maslow storm the secluded Ozunu retreat (nestled in the mountains) using the tracking device on Raizo.
+
+Turning the night into day by saturating the sky above with powerful flares, the military forces are able to fight the ninjas on their own terms. In the confusion, Mika frees Raizo from his bindings. He proceeds to kill Takeshi and confront Lord Ozunu in a sword duel. Mika interferes to help but gets stabbed by Lord Ozunu. Enraged, Raizo uses a "shadow blending" technique for the first time to distract and kill Lord Ozunu. Mika, seemingly fatally wounded, is in fact saved by a quirk of birth: her heart is actually on the right side of her chest.
+
+With the Ozunu defeated, Europol leaves. Raizo stays behind in the ruins of the Ozunu retreat. Climbing the same wall Kiriko did in the past, he looks out at the surrounding countryside and breathes with a smile, feeling his freedom for the first time.
+
+</p>
+<header>
+  <h2 id="section-to-scroll1">Cast</h2>
+        <div class="header-line"></div>
+      </header> 
+
+  <p>Rain as Raizo, one of the world's deadliest assassins.
+Sungwoong Yoon as Young Raizo
+Lee Joon as Teenage Raizo
+Naomie Harris as Mika Coretti, a Europol agent.
+Ben Miles as Ryan Maslow, Mika's Europol superior.
+Rick Yune as Takeshi, the leader of a team sent by the Ozunu Clan.
+Sho Kosugi as Lord Ozunu, the leader of the Ozunu Ninja Clan.
+Randall Duk Kim as Tattoo Master
+Anna Sawai as Teenage Kiriko
+Kylie Liya Goldstein as Young Kiriko
+Sung Kang as Hollywood
+Jonathan Chan-Pensley as Yakuza Henchman
+Ill-Young Kim as Yakuza Mohawk
+Yuki Iwamoto as Yakuza Couch
+Linh-Dan Pham as Pretty Ninja
+Yu Fang as Laundromat Manager
+Adriana Altaras as Landlady
+Eleonore Weisgerber as Mrs. Sabatin
+Wladimir Tarasjanz as Aleksei Sabatin
+Kai Fung Rieck as Teenage Takeshi
+Thorston Manderlay as Agent Zabranski
+Richard Van Weyden as Ibn Battuta
+Mina Ghousi as Kid with Envelope
+Hans Hohlbein as Mika's Neighbor
+Stephen Marcus as Kingpin
+Nhi Ngoc Nguyen-Hermann as Girl on Roof
+Guido Föhrweisser as Lead Europol Agent
+Tim Williams as Europol Cell Guard
+David Leitch as Europol Door Guard
+Wolfgang Stegemann as Europol Pointman
+Steffen Groth as Europol Guard
+Jens Neuhaus as Europol Guard
+Patrick Pinheiro as Maslow's Aide
+Matthias Schendel as Task Force Agent
+Johannes Ahn as Medic</p>
+
+    
+<header>
+  <h2 id="section-to-scroll2">Production</h2>
+        <div class="header-line"></div>
+      </header> 
+
+      <p>Ninja Assassin was directed by James McTeigue, who had previously worked with producers The Wachowskis and Joel Silver on V for Vendetta four years prior. The Wachowskis were inspired to make the film by actor Rain's impressive ninja-based fight scenes in their 2008 film Speed Racer. The initial screenplay was written by Matthew Sand, and was rewritten by J. Michael Straczynski only six weeks prior to filming due to the Wachowskis' initial dissatisfaction. Martial Artist turned actor Sho Kosugi had previously starred in a number of ninja movies playing ninja villains and heroes several times in the 1980s, and had become a cult icon, hence his role as the antagonist Lord Ozunu, named after En no Ozunu, a 7th-century Japanese mystic and one of the developers of ninjutsu. "If you've ever watched any ninja films from the 1980s, you know that Sho Kosugi is the ninja; he is the man," asserts McTeigue.Medienboard Berlin-Brandenburg provided filmmakers US$1 million in funding,and Germany's Federal Film Fund provided an additional US$9 million to the film's funding.</p>
+     
+      <header>
+        <h2 id="section-to-scroll3">Release</h2>
+      <div class="header-line"></div>
+    </header> 
+
+    <p>The film was released on November 25, 2009 in the United States.
+      The film received mixed reviews from critics, while some praised the revival of the martial arts genre, the movie still failed on originality. On Rotten Tomatoes 26% of 117 critics gave the film positive reviews, with an average rating of 4.40/10. The site's consensus reads "Overly serious and incomprehensibly edited, Ninja Assassin fails to live up to the promise of its title."At Metacritic, which assigns a weighted average score out of 100 to reviews from mainstream critics, the film received an average score of 34% based on 20 reviews.[14] While critics generally panned the film as a melange of gore scenes without a convincing plot,some critics commended the film's numerous action scenes. Audiences surveyed by CinemaScore gave the film a grade "B" on scale of A+ to F.
+
+Mick LaSalle of the San Francisco Chronicle described the film as "a gorefest, a borefest and a snorefest."Joe Williams of the St. Louis Post-Dispatch opined that "this amateurish action flick is so lacking in personality or punch, it ought to be titled 'V for Video Store Discount Bin.'"
+
+Entertainment Weekly's Chris Nashawaty wrote "...this slick slice of martial-arts mayhem from the producers of The Matrix is awash in blood. It spurts and sprays in geysers. And it never lets up. There's a brutal (and admittedly very cool) fight scene every five minutes... But let's be honest, killing is this film's business... and business is good."
+    </p>
+
+    <header>
+      <h2 id="section-to-scroll4">Award</h2>
+      <div class="header-line"></div>
+    </header> 
+
+    <p>On June 9, 2010, Rain was awarded the "Biggest Badass" award on the MTV Movie Awards for his work in Ninja Assassin.</p>
+
+    <header>
+      <h2 id="section-to-scroll5">Home Media</h2>
+      <div class="header-line"></div>
+    </header> 
+
+    <p>On June 9, 2010, Rain was awarded the "Biggest Badass" award on the MTV Movie Awards for his work in Ninja Assassin.</p>
+
+    <header>
+      <h2 id="section-to-scroll6">Marketing</h2>
+      <div class="header-line"></div>
+    </header> 
+
+    <p>Video game
+      On November 5, 2009, Warner Bros. Entertainment released the video game application based on the film for the iPhone devices</p>
+  
+  </div>
+</body>
+</html>
